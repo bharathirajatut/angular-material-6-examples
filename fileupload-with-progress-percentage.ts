@@ -1,5 +1,4 @@
 ```
-
 const req = new HttpRequest('POST', '/upload/file', file, {
   reportProgress: true,
 });
@@ -15,5 +14,4 @@ http.request(req).subscribe(event => {
     console.log('File is completely uploaded!');
   }
 });
-
 ```
